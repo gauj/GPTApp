@@ -5,7 +5,7 @@ import openai
 from openai.error import RateLimitError
 
 app = Flask(__name__)
-openai.api_key = "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"
+openai.api_key = "sk-xxxxxxxxxxxxxxxxxxxxx"
 
 @app.route('/')
 def index():
